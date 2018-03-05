@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>table2</title>
+    <!-- public -->
+    <link rel="stylesheet" href="css/common.css">
+    <style>
+    .a{
+    	width: 400px;
+    	height: 400px;
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	right: 0;
+    	bottom: 0;
+    	margin: auto;
+    	border: 1px solid #000;
+    	overflow: hidden;
+    }
+    .aa{
+    	width: 100%;
+    	height: 38px;
+    	overflow: hidden;
+    }
+    .aaa{
+        min-width: 100%;
+        width: 600px;
+        height: 38px;
+    }
+    .aaaa{
+        min-width: 100%;
+        width: 600px;
+        height: 600px;
+        background: -webkit-linear-gradient(left top, #00ff00 , #0000ff);
+        background: -o-linear-gradient(bottom right, #00ff00, #0000ff);
+        background: -moz-linear-gradient(bottom right, #00ff00, #0000ff);
+        background: linear-gradient(to bottom right, #00ff00 , #0000ff);
+    }
+    .ab{
+    	width: 100%;
+    	height: 360px;
+    	overflow: auto;
+    }
+    .aba{
+    	min-width: 100%;
+        overflow: hidden;
+        margin-top: -38px;
+    }
+    .abaa{
+    	min-width: 100%;
+    	width: 600px;
+    	height: 600px;
+    	background: -webkit-linear-gradient(left top, #00ff00 , #0000ff);
+    	background: -o-linear-gradient(bottom right, #00ff00, #0000ff);
+    	background: -moz-linear-gradient(bottom right, #00ff00, #0000ff);
+    	background: linear-gradient(to bottom right, #00ff00 , #0000ff);
+    }
+    </style>
+</head>
+<body>
+	<div class="a">
+		<div class="aa">
+			<div class="aaa">
+				<div class="aaaa">
+                    1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+                </div>
+			</div>
+		</div>
+		<div class="ab">
+			<div class="aba">
+               <div class="abaa">
+                1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+            </div>
+        </div>
+		</div>
+	</div>
+</body>
+    <!-- jquery -->
+    <script type="text/javascript" src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js" ></script>
+    <script>
+    $('.aba').width($('.abaa').width() - ($('.ab').width() - $('.ab')[0].clientWidth));
+    $('.ab').on('scroll',function(){
+    	$('.aa').scrollLeft($('.ab').scrollLeft());
+    });
+    </script>
+</html>

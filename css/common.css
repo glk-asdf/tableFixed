@@ -1,0 +1,285 @@
+@charset "UTF-8";
+/* 棰滆壊鍒楄〃 绾 榛?缁縢 闈?钃漛 绱?*/
+/* 榛戣壊 */
+/* 鐧借壊 */
+/* 鐏拌壊 */
+/* 绾㈣壊 */
+/* 姗欒壊 */
+/* 榛勮壊 */
+/* 缁胯壊 */
+/* 闈掕壊 */
+/* 钃濊壊 */
+/* 绱壊 */
+/* ................................................................................................................. */
+/* body 鐨勫瓧浣撳ぇ灏?*/
+/* body 瀛椾綋棰滆壊 */
+/* 婊氬姩鏉￠鑹?*/
+/* 婊氬姩鏉¤儗鏅鑹?*/
+/* 杈规棰滆壊 */
+/* input text 榛樿鑳屾櫙棰滆壊 */
+/* aqi棰滆壊 */
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+  margin: 0;
+  padding: 0;
+}
+/*  榛樿瀛椾綋涓?"Arial" 鎴?"sans-serif" 鎴?"鎬濇簮榛戜綋" 鎴?"adobe 榛戜綋 Std" 鎴?"榛戜綋" */
+body {
+  font-family: "Arial", "sans-serif", "\601D\6E90\9ED1\4F53", "adobe \9ED1\4F53 Std", "\9ED1\4F53";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 14px;
+}
+em {
+  font-style: normal;
+}
+li {
+  list-style: none;
+}
+ul,
+li,
+span {
+  cursor: default;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+p {
+  word-wrap: break-word;
+}
+input,
+textarea,
+keygen,
+select,
+button {
+  outline: 0;
+  font: inherit;
+}
+:focus {
+  outline: 0;
+}
+* {
+  box-sizing: border-box;
+  word-break: break-all;
+}
+/* 灏嗗叏閮ㄨ涓轰笉鍙€夛紝浼氬鑷寸Щ鍔ㄧ鐨勮〃鍗曞厓绱犳棤娉曢€変腑 */
+/* * {
+  moz-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} */
+/* 灏嗛儴鍒嗚涓哄彲閫?*/
+/* input[type='text'], td {
+  moz-user-select: auto;
+  -moz-user-select: auto;
+  -o-user-select: auto;
+  -khtml-user-select: auto;
+  -webkit-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+} */
+/* rem浣跨敤鍩虹 */
+html {
+  font-size: 100px;
+}
+body {
+  font-size: 14px;
+  color: #000000;
+}
+@media screen and (max-width: 1700px) {
+  html {
+    font-size: 89.47368421px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  html {
+    font-size: 84.21052632px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  html {
+    font-size: 78.94736842px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  html {
+    font-size: 73.68421053px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 68.42105263px;
+  }
+}
+/* css鍏ㄥ睆鍩虹,document鐨勯珮搴︿负涓€灞忕殑楂樺害锛岃€宧tml鍙互缁ф壙杩囨潵 */
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+/* 銆傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傞€氱敤鍔熻兘銆傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€傘€?*/
+/* 宸︽诞 */
+.align-left {
+  float: left;
+}
+/* 鍙虫诞 */
+.align-right {
+  float: right;
+}
+/* 闅愯棌 */
+.hide {
+  display: none !important;
+}
+/* 閫忔槑 */
+.transparent {
+  opacity: 0 !important;
+  cursor: default !important;
+}
+/* img */
+.img {
+  max-height: 100%;
+  max-width: 100%;
+}
+/* 娓呴櫎娴姩 */
+.clear {
+  clear: both;
+}
+/* 鏈闂殑閾炬帴 */
+.a:link {
+  color: #000000;
+  text-decoration: none;
+}
+/* 宸茶闂殑閾炬帴 */
+.a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+/* 榧犳爣绉诲姩鍒伴摼鎺ヤ笂 */
+.a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+/* 閫夊畾鐨勯摼鎺?*/
+.a:active {
+  color: #000000;
+  text-decoration: none;
+}
+/* 璋锋瓕娴忚鍣ㄧ壒鎬ч€夋嫨鍘嗗彶璁板綍浼氫骇鐢熼粍搴曪紝鏃犳硶淇敼锛屽彧鑳戒娇鐢ㄥ唴闃村奖瑕嗙洊,鍙互鏍规嵁璁捐鐨勯粯璁nput鑳屾櫙鑹叉潵淇敼 */
+.input-autocomplete {
+  box-shadow: 0 0 0px 1000px #f7f7f7 inset;
+}
+/* 杈撳叆妗嗘彁绀烘牱寮?*/
+.input-placeholder::-webkit-input-placeholder {
+  color: #757575;
+}
+.input-placeholder:-moz-placeholder {
+  color: #757575;
+}
+.input-placeholder::-moz-placeholder {
+  color: #757575;
+}
+.input-placeholder:-ms-input-placeholder {
+  color: #757575;
+}
+/* 涓嶅彲閫?*/
+.unable-select {
+  moz-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* 12鏍呮牸 */
+/*.generate-columns(12);
+
+.generate-columns(@n, @i: 1) when (@i =< @n) {
+  .col@{i} {
+    width: (@i * 100% / @n);
+    float: left;
+  }
+  .generate-columns(@n, (@i + 1));
+}*/
+.col1 {
+  width: 8.33333333%;
+  float: left;
+}
+.col2 {
+  width: 16.66666667%;
+  float: left;
+}
+.col3 {
+  width: 25%;
+  float: left;
+}
+.col4 {
+  width: 33.33333333%;
+  float: left;
+}
+.col5 {
+  width: 41.66666667%;
+  float: left;
+}
+.col6 {
+  width: 50%;
+  float: left;
+}
+.col7 {
+  width: 58.33333333%;
+  float: left;
+}
+.col8 {
+  width: 66.66666667%;
+  float: left;
+}
+.col9 {
+  width: 75%;
+  float: left;
+}
+.col10 {
+  width: 83.33333333%;
+  float: left;
+}
+.col11 {
+  width: 91.66666667%;
+  float: left;
+}
+.col12 {
+  width: 100%;
+  float: left;
+}
